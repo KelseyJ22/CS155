@@ -1,3 +1,5 @@
+# Kelsey Josund (kelsey2 05825031) and Gawan Fiore (gfiore)
+
 # all strings will consist solely of uppercase letters
 # all strings will be of length at most 2000
 # output the length of CLCS, not the subsequence itself
@@ -23,11 +25,11 @@ def LCS(A,B):
 
 	return arr[m][n]
 
-
+# as defined in the handout
 def cut(A, k):
 	return A[k:] + A[:k] # reorder the string
 
-
+# try all values of k and reorder the string A accordingly; compare to B
 def CLCS(A,B):
 	longest = 0
 	for k in range(0,len(A)): # try all values of k
@@ -36,7 +38,7 @@ def CLCS(A,B):
 			longest = length # track longest subsequence
 	return longest
 
-
+# start program functionality
 def main():
 	if len(sys.argv) != 1:
 		sys.exit('Usage: `python LCS.py < input`')
