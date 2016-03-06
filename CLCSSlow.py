@@ -1,4 +1,4 @@
-# Kelsey Josund (kelsey2 05825031) and Gawan Fiore (gfiore)
+# Kelsey Josund (kelsey2 05825031) and Gawan Fiore (gfiore 05824232)
 
 # all strings will consist solely of uppercase letters
 # all strings will be of length at most 2000
