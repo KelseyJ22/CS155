@@ -6,4 +6,4 @@ if [ $# -ne 1 ]; then
 fi
 
 echo "Running python file $1. Timing results:"
-time python $1 < sample.in | python judge.py sample.out
+time python $1 < sample_again.in | python judge.py sample_again.out
