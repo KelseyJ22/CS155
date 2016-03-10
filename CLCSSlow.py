@@ -1,13 +1,7 @@
 # Kelsey Josund (kelsey2 05825031) and Gawan Fiore (gfiore 05824232)
 
-# all strings will consist solely of uppercase letters
-# all strings will be of length at most 2000
-# output the length of CLCS, not the subsequence itself
-
 import sys
 import numpy as np
-
-# find the longest LCS(cut(A, k), cut(B,0)) over all possible choises of k
 
 arr = np.zeros((2048, 2048), dtype=int)
 
